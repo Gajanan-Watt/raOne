@@ -1,0 +1,26 @@
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    font-family: "Gill Sans", sans-serif;  
+    background-color: white;
+    /* border: 1px solid black; */
+}
+.navigationMenu{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    font-size: 20px;
+    font-weight: 200;
+    /* border: 1px solid black; */
+}
+.navbarLogo{
+    font-size: 30px;
+}
+.navigationGet{
+    font-size: 25px;
+}

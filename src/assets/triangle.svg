@@ -1,0 +1,9 @@
+<svg width="70" height="70" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient cx="65.702%" cy="39.133%" fx="65.702%" fy="39.133%" r="100%" id="n6cjf79v3a">
+            <stop stop-color="#FFF" offset="0%"/>
+            <stop offset="100%"/>
+        </radialGradient>
+    </defs>
+    <path d="m853 490 35 70h-70z" transform="translate(-818.049 -490)" fill="url(#n6cjf79v3a)" fill-rule="evenodd"/>
+</svg>
