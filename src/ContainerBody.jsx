@@ -67,7 +67,7 @@ export default function ContainerBody() {
 
             <div className='reachingOut'>
                 <div></div>
-                <div className='contentBody2text'><a href="">Get started today.</a> Or if you want to get to know us a little <br />better, that's cool too. Click here to <a href="">learn more</a></div>
+                <div className='contentBody2text'><a href="https://docs.google.com/forms/d/1rBYLj_vr5RSFHZXaFQbpMYS5xPtOsDCkVR0iAXzZmH8/viewform?edit_requested=true">Get started today.</a> Or if you want to get to know us a little <br />better, that's cool too. Click here to <a href="">learn more</a></div>
             </div>
         </div>
 
