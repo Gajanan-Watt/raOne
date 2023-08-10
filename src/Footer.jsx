@@ -11,6 +11,7 @@ export const Footer = () => {
         </div>
         <div className='foo_body'>Feel free to reach out to us for all your digital requirements. <br /> We are excited to partner with you on your journey to building a remarkable online
 presence and <br /> driving your business to new heights. Contact us today for a personalized consultation</div>
+        <div className='foo_body'>Email - studiio.raone@gmail.com &nbsp; &nbsp; &nbsp; &nbsp; Contact - +91 90960 91980</div>
         <div className='socials'>
             <a href="https://instagram.com/studio__ra.one?igshid=NGExMmI2YTkyZg=="><InstagramIcon sx={{ fontSize: "40px", textDecoration: "none", color: 'white' }} /></a>
             <a href="https://youtube.com/@shubhamRavangave"><YouTubeIcon sx={{ fontSize: "40px", textDecoration: "none", color: 'white' }} /></a>

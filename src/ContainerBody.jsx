@@ -7,9 +7,12 @@ import polygon from './assets/polygon-copy.svg'
 
 
 import './ContainerBody.css'
+import Navbar from './Navbar'
+import { Footer } from './Footer'
 export default function ContainerBody() {
   return (
-    <>
+      <>
+      <Navbar/>
         <div className='containerBody'>
             <div className='header'>
                 <p className='headerText'>
@@ -70,7 +73,7 @@ export default function ContainerBody() {
                 <div className='contentBody2text'><a href="https://docs.google.com/forms/d/1rBYLj_vr5RSFHZXaFQbpMYS5xPtOsDCkVR0iAXzZmH8/viewform?edit_requested=true">Get started today.</a> Or if you want to get to know us a little <br />better, that's cool too. Click here to <a href="">learn more</a></div>
             </div>
         </div>
-
+        <Footer/>
     </>
 
   )

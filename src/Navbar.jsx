@@ -1,14 +1,18 @@
 import React from 'react'
 import './Navbar.css';
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+
+  const navigate = useNavigate();
+
   return (
     <>
         <div className='navbar'>
-            <div className='navbarLogo' >Ra.One</div>
+            <div className='navbarLogo' onClick={() => navigate("/")} >Ra.One</div>
             <div className='navigationMenu'>
                 <div>About</div>
-                <div>Services</div>
+                <div className='services' onClick={() => navigate("/services")}>Services</div>
                 <div>Project</div>
                 <div>Thoughts</div>
             </div>

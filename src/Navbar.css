@@ -20,7 +20,11 @@
 }
 .navbarLogo{
     font-size: 30px;
+    cursor: pointer;
 }
 .navigationGet{
     font-size: 25px;
+}
+.services{
+    cursor: pointer;
 }
