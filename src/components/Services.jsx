@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import Navbar from './Navbar'
-import { Footer } from './Footer'
-import Cards from './Cards'
+import Navbar from '../atoms/Navbar'
+import { Footer } from '../atoms/Footer'
+import Cards from '../atoms/Cards'
 
 export default function Services() {
 
@@ -68,19 +68,19 @@ export default function Services() {
             // bodyText2: "A Business Intelligence (BI) analyst is a data expert responsible for analyzing complex datasets to extract meaningful insights. They utilize various tools and techniques to generate reports, dashboards, and visualizations, enabling businesses to make data-driven decisions. BI analysts interpret trends, identify opportunities and challenges, and play a crucial role in optimizing processes and enhancing overall performance across different aspects of the organization."
         },
     ])
-  return (
-    <>
-        <Navbar/>
+    return (
+        <>
+            <Navbar />
             {
                 info.map((el, index) => {
                     return (
                         <>
-                            <Cards key={index} title={el.title} bodyText={el.bodyText}/>
+                            <Cards key={index} title={el.title} bodyText={el.bodyText} />
                         </>
                     )
                 })
             }
-        <Footer/>
-    </>
-  )
+            <Footer />
+        </>
+    )
 }
