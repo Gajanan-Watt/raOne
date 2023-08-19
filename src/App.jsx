@@ -8,6 +8,7 @@ import { Footer } from './atoms/Footer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Services from './components/Services'
 import Projects from './components/Projects'
+import AboutUs from './components/AboutUs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,8 @@ function App() {
           <Route path="/" element={<ContainerBody />} />
           <Route path="/services" element={<Services />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+
         </Routes>
       </BrowserRouter>
       <div>&nbsp;</div>

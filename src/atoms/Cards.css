@@ -13,3 +13,6 @@
 .bodyText{
     font-size: 25px;
 }
+.unorderList{
+    list-style: none;
+}

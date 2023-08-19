@@ -1,0 +1,7 @@
+.aboutContainer{
+    padding: 50px;
+}
+.aboutContainer p{
+    font: 30px;
+    border: 1px solid black
+}

@@ -1,5 +1,7 @@
 import React from 'react'
 import significareel_comp from './assets/significareel_comp.mp4'
+import landing_page_vid from './assets/landing_page_vid.mp4';
+import about_us_vid from './assets/about_us_vid.mp4'
 import giphy from './assets/giphy.gif'
 import oval3x from './assets/oval3x.png'
 import triangle from './assets/triangle.svg'
@@ -26,7 +28,11 @@ export default function ContainerBody() {
             </div>
             <div>&nbsp;</div>
             <div>
-                <video src={significareel_comp} loop={true} muted={true} width="100%" height="550" autoPlay>
+                <video loop={true} muted={true} width="100%" height="550" autoPlay>
+                    <source
+                        src="https://drive.google.com/file/d/1-i4k0RijAxEBCBoHM_PSd3fOH5Jg1Vtz/view?usp=sharing"
+                        type="video/mp4"
+                    />
                 </video>
             </div>
             <div>&nbsp;</div>
