@@ -1,7 +1,4 @@
 import React, { useState } from 'react'
-import profilePic1 from "../assets/shubh.jpeg";
-import profilePic2 from "../assets/tush.jpeg";
-import profilePic3 from "../assets/profile.jpeg";
 import Navbar from '../atoms/Navbar';
 import { Footer } from '../atoms/Footer';
 import "./AboutUs.css"
